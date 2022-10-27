@@ -10,7 +10,9 @@ function calcularAnchoyAltoImagen(anchoImagen, altoImagen) {
 		altoImagen = altoImagenA4;
 	}
     
+	console.log("Línea agregada por Maria");
 	return [anchoImagen, altoImagen];
+	
 }
 
 export default calcularAnchoyAltoImagen;
