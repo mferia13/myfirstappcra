@@ -1,7 +1,9 @@
+var numero = prompt("Ingrese una lista de número entre 1 y 100 separados por coma:");
+
 const anchoHojaA4 = 2480;
 const altoImagenA4 = 3508;
 
-function calcularPrimo(anchoImagen, altoImagen) {
+function calcularAnchoyAltoImagen(anchoImagen, altoImagen) {
 	if (anchoImagen >= anchoHojaA4) {
 		anchoImagen = anchoHojaA4;
 	}
@@ -15,4 +17,4 @@ function calcularPrimo(anchoImagen, altoImagen) {
 	
 }
 
-export default calcularPrimo;
+export default calcularAnchoyAltoImagen;
