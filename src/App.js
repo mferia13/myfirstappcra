@@ -2,6 +2,7 @@ import {useRef, useEffect} from 'react';
 import logo from './logo.svg';
 import './App.css';
 import {run} from './fibonacci.js';
+import {run} from './cacularPrimo.js';
 
 function App() {
   const ref = useRef(null);
